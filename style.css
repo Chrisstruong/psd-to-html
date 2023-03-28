@@ -115,3 +115,13 @@ header {
     margin-left: 23.5%;
     color: rgba(0, 0, 0, 0.601);
 }
+
+.sub-page3{
+    display: flex;
+}
+
+.mountain-lists{
+    background-color: rgb(25, 25, 99);
+    display: flex;
+    color: white;
+}
