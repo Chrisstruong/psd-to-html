@@ -24,8 +24,14 @@ header {
 .list1 li {
     display: inline-block;
     text-decoration: underline;
-    padding-right: 200px;
+    padding-right: 50px;
+    color: white;
+    font-style: italic;
 }
+.list1 {
+    margin-right: 18%;
+}
+
 
 #moutain-circle {
     border-radius: 50%;
@@ -133,6 +139,7 @@ header {
 
 .sub-page3 {
     display: flex;
+    height: 150px;
 }
 
 .mountain-lists {
@@ -198,10 +205,13 @@ header {
 
 .schedule1-element {
     margin-left: 50px;
+    color: rgba(50, 50, 50, 0.71);
 }
 
 .schedule1-Relement {
     margin-right: 50px;
+    color: rgba(50, 50, 50, 0.71);
+
 }
 
 #schedule-h2 {
@@ -270,4 +280,32 @@ header {
 .mountain1-container{
     margin-left: 15%;
     background-color: rgba(255, 255, 255, 0.734);
+}
+#zero-two {
+    font-size: 80px;
+    color: rgba(148, 148, 148, 0.778);
+    margin-left: 30%;
+    height: 10px;
+    margin-bottom: 50px;
+}
+
+#climb {
+    margin-top: 5.7%;
+    font-size: 20px;
+    color: rgba(12, 45, 103, 0.743);
+    font-weight: bolder;
+}
+
+.only-dot2 {
+    background-color: rgba(148, 148, 148, 0.778);
+    padding-right: 20px;
+    height: 1px;
+    color: rgba(148, 148, 148, 0.778);
+}
+
+#poem2 {
+    width: 42%;
+    color: rgba(0, 0, 0, 0.694);
+    margin-top: 5%;
+    margin-left: 3%;
 }
