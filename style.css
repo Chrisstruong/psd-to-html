@@ -31,6 +31,16 @@ header {
 .list1 {
     margin-right: 18%;
 }
+#LOSANG{
+    margin-top: 18%;
+    margin-left: 30%;
+    font-size: 90px;
+    font-weight: bolder;
+    color: rgba(79, 67, 59, 0.843);
+}
+#MNT{
+    color: rgb(25, 60, 113);
+}
 
 
 #moutain-circle {
