@@ -1,11 +1,19 @@
 * {
     box-sizing: border-box;
 }
+html {
+    overflow: hidden;
+    height: 100%;
+}
 
 body {
+    overflow: auto;
     height: 100%;
-    width: 100%;
+        height: 100vh;
+        width: 100vw;
 }
+
+
 
 header {
     display: flex;
@@ -19,6 +27,12 @@ header {
 }
 
 #moutain-circle {
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 19%;
+}
+
+#moutain-circle2 {
     border-radius: 50%;
     width: 50px;
     margin-left: 19%;
@@ -121,7 +135,7 @@ header {
 }
 
 .mountain-lists {
-    background-color: rgb(25, 25, 99);
+    background-color: rgb(25, 60, 113);
     display: flex;
     color: white;
     position: relative;
@@ -138,34 +152,37 @@ header {
 
 .schedule-container {
     background: url("https://images.unsplash.com/photo-1531436107035-40b2e85b7a1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
-    height: 700px;
+    height: 660px;
 
 }
 
 .schedule1 {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .schedule3 {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .schedule4 {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .sub-schedule-container {
-    background-color: white;
     width: 30%;
     margin-top: 8%;
     margin-left: 15%;
     position: relative;
 }
-.sub-schedule-container::before{
-    background-color: rgb(0, 41, 79);
+
+.sub-schedule-container::before {
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     opacity: 0.7;
     position: absolute;
@@ -175,6 +192,8 @@ header {
     right: 0px;
     left: 0px;
 }
+
+
 
 .schedule1-element {
     margin-left: 50px;
@@ -188,4 +207,39 @@ header {
     font-size: 30px;
     padding-top: 20px;
     padding-left: 50px;
+    position: relative;
+}
+
+.copy-right {
+    background-color: rgba(25, 60, 113, 0.865);
+}
+
+
+#moutain-circle3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    filter: sepia(1);
+    /* filter: hue-rotate(3.12rad); */
+    filter: saturate(0);
+}
+
+#LA-moutains {
+    color: rgb(111, 137, 175);
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.logo2{
+    margin-left: 15%;
+}
+
+.copy-statement{
+    color: rgb(111, 137, 175);
+    font-size: 15px;
+    margin-right: 15%;
+    margin-top: 2%;
+
 }
